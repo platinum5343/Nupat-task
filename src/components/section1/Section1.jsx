@@ -1,7 +1,7 @@
 import React from 'react'
 import './Section1.scss'
 import icon1 from '../../Asset/Icon1.png'
-import icon2 from '../../Asset/Icon2.svg'
+// import icon2 from '../../Asset/Icon2.svg'
 import icon3 from '../../Asset/Icon3.png'
 import icon4 from '../../Asset/Icon4.png'
 

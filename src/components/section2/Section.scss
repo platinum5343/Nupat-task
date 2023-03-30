@@ -1,0 +1,97 @@
+.section2{
+    position: relative;
+    overflow: hidden;
+    .imgw{
+
+        background-image: url(../../Asset/Photo7.png);
+        height: 50vh;
+        background-size: cover;
+        overflow: hidden;
+    }
+   .box{
+    display: flex;
+    width: 100%;
+    height: 70vh;
+    .fence{
+        width: 40rem;
+        justify-content: center;
+        box-sizing: border-box;
+        background: white;
+        border: 1px solid #fff;
+        gap: 2rem;
+        transform: translate(70%, -50%);
+        
+    justify-content: space-evenly;
+        .fences{
+            display: flex;
+            margin: 2rem;
+            width: 80rem;
+        }
+        .imgs{
+            margin-left: 3rem;
+            
+            position: relative;
+            .a{
+                width: 20rem;
+            }
+            .b{
+
+                .c{
+                    position: absolute;
+                    top: 150px;
+                    left: -50px;
+                    padding: 2rem;
+                    
+                }
+            }
+            }
+    }
+}
+.last{
+    display: flex;
+    justify-content: center;
+    
+    text-align: center;
+    align-items: center;
+    .last1{
+    height: 3rem;
+    
+    width: 10%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-left: none;
+    }
+    .last2{
+    
+        width: 10%;    
+    justify-content: center;
+    
+    text-align: center;
+    align-items: center;
+        height: 3rem;
+        border-right: none;
+    }
+}
+}
+
+
+@media only screen and (max-width: 1024px){
+    .main{position: relative;
+    .img{
+        width: 40vh;
+        height: 50vh;
+
+        .a{
+            width: 50vh;
+            height: 40vh;
+        }
+        .c{
+            position: absolute;
+            left: -60px;
+            width: 40vh;
+            height: 30vh;
+        }
+    }
+}
+}

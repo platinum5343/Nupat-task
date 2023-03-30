@@ -1,6 +1,14 @@
 .containerr{
     height: 50vh;
     display: flex;
+    h6{
+        color: #ffffff;
+        width: fit-content;
+        
+    background: rgba(4, 28, 55, 0.5);
+    border-left: 6px solid gold;
+    
+    }
     .row{
         display: flex;
         .col{
@@ -8,11 +16,6 @@
             text-align: left;
             margin: 0rem 2rem;
             height: 20vh;
-            h6{
-                background: rgba(9, 18, 66, 0.25);
-                color: #ffffff;
-                width: fit-content;
-            }
             .vertical{
                 border-left:4px solid rgba(216, 216, 216, 1);
                 height: 5rem;
