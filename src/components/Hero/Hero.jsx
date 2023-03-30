@@ -11,7 +11,7 @@ const Hero = () => {
     </div>
    <h3>Your Gateway 
 to any Destination in the World</h3>
-   <p>In augue ligula, feugiat ut nulla consequat. Ut est lacus, molestie in arcu no, iaculis vehicula ipsum. Nunc faucibus, nisl id dapibus finibus, enim diam interdum nulla, sed laoreet risus lectus.  <br/>The Best And Largest All-In-One Online Tutoring Platform In The World </p>
+   <p>In augue ligula, feugiat ut nulla consequat. Ut est lacus, molestie in arcu no,<br/> iaculis vehicula ipsum. Nunc faucibus, nisl id dapibus finibus, enim diam interdum nulla,<br/> sed laoreet risus lectus.  The Best And Largest All-In-One Online Tutoring <br/>Platform In The World </p>
    <button>Explore more</button>
    </div>
   

@@ -1,0 +1,27 @@
+.containerr{
+    height: 50vh;
+    display: flex;
+    .row{
+        display: flex;
+        .col{
+            justify-content: space-evenly;
+            text-align: left;
+            margin: 0rem 2rem;
+            height: 20vh;
+            h6{
+                background: rgba(9, 18, 66, 0.25);
+                color: #ffffff;
+                width: fit-content;
+            }
+            .vertical{
+                border-left:4px solid rgba(216, 216, 216, 1);
+                height: 5rem;
+                margin: 2px 2px;
+            }
+            
+        }
+    }
+        .section1{
+        gap: 2rem;
+    }
+}
