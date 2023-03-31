@@ -19,7 +19,7 @@ const Section2 = () => {
                     
                     <h1>this is why we are best from others</h1>
                     <p className='lead my-4'>high-defination video is video of higher resolution and quality than standard definition. while there’s no<br/> standard meaning for high definition, generally any standard video image</p>
-                    <button className='btn btn-primary btn-lg'>view courses</button>
+                   
                 </div>
                 <div className='imgs'>
 

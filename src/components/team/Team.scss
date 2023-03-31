@@ -1,0 +1,47 @@
+.container{
+    overflow: hidden;
+    .text{
+        h6{
+            
+            color: #ffffff;
+            width: fit-content;
+        background: rgba(4, 28, 55, 0.5);
+        border-left: 6px solid gold;
+        }
+    }
+    .divs{
+        
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+        justify-content: center;
+        .row{
+            position: relative;
+          
+            .layer{
+                height: 50vh;
+                width: 364px;
+                position: absolute;
+                top: 330px;
+                left: 12px;
+                text-align: left;
+                justify-content: start;
+                align-items: start;
+                background: #1c1f35;
+                h3{
+                    color: white;
+                    
+                margin-left: 1rem;
+                align-items: center;
+
+    
+                }
+                p{
+                    color: #fff;
+                    align-items: center;
+                margin-left: 1rem;
+                }
+            }
+        }
+    }
+}
