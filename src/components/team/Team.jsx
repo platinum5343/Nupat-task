@@ -9,7 +9,7 @@ const Team = () => {
         <div className="container">
             <div className="row mb-5">
                 <div className="col-md-8 mx-auto text-center">
-                    <h6 className="text">The transporters</h6>
+                    <h6>The transporters</h6>
                     <h1>Meet the expert Team</h1>
                 </div>
             </div>
