@@ -1,0 +1,40 @@
+.section4{
+    height: 100vh;
+    background: linear-gradient(
+        to right,
+        #091242 0%,
+        #091242 50%,
+        #F4F4F4 50%,
+        #F4F4F4 100%
+    );
+    
+}
+
+@media only screen and (max-width: 1024px) {
+.section4 {
+height: 80vh;
+}
+.imglast{
+    display: none;
+}
+}
+
+@media only screen and (max-width: 768px) {
+.section4 {
+
+height: 60vh;
+background: linear-gradient( #F4F4F4 50%, #F4F4F4 100%);
+}
+.imglast{
+    display: none;
+}
+}
+
+@media only screen and (max-width: 480px) {
+.section4 {
+height: 50vh;
+}
+.imglast{
+    display: none;
+}
+}

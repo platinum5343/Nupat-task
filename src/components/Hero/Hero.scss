@@ -1,0 +1,92 @@
+
+
+
+.hero{
+    background-image: url(../../Asset/Photo1.png);
+    height: 100vh;
+    background-size: cover;
+    overflow: hidden;
+    .containers{
+        margin: 2px auto;
+        
+        .home{
+            color: white;
+        align-items: center;
+        justify-content: center;
+        transform: translate(15%, 100%);
+        }
+        .homes{
+            display: flex;
+            background: rgba(4, 28, 55, 0.5);
+            width: max-content;
+            border-left: 6px solid gold;
+            align-items: center;
+
+          
+        }
+       
+    }
+
+}
+
+
+.home button {
+    background: linear-gradient(94.06deg, #FFB629 -1.21%, #FFDA56 58.66%, #FFD7A6 116.84%);
+    border: none;
+    width: 10rem;
+    height: 3rem;
+    position: relative;
+    }
+    
+    .home button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 2.5rem;
+    height: 2.5rem;
+    background: linear-gradient(94.06deg, #FFB629 -1.21%, #FFDA56 58.66%, #FFD7A6 116.84%);
+    /* color for the semi-circle part */
+    border-radius: 0 0 0 3rem;
+    }
+    
+
+
+/* Media query for smaller screens */
+
+/* Media query for smaller screens */
+
+@media only screen and (max-width: 768px) {
+    .hero {
+    height: 80vh;
+    }
+    
+    .hero .containers {
+    margin: 1px auto;
+    }
+    
+    .hero .containers .home {
+        transform: translate(10%, 80%);
+        overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
+  font-size: medium;
+      }
+    
+    .hero .containers .homes {
+        width: 70%;
+        padding: 1rem;
+        box-sizing: border-box;
+      }
+      
+    .hero .containers .home button {
+    width: 10rem;
+    height: 2.5rem;
+    }
+    
+    .hero .containers .home button::before {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 0 0 0 2rem;
+    }
+    }

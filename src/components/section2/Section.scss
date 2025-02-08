@@ -1,0 +1,159 @@
+.section2{
+    position: relative;
+    overflow: hidden;
+    .imgw{
+
+        background-image: url(../../Asset/Photo7.png);
+        height: 50vh;
+        background-size: cover;
+        overflow: hidden;
+    }
+   .box{
+    display: flex;
+    width: 100%;
+    height: 70vh;
+    .fence{
+        width: 40rem;
+        justify-content: center;
+        box-sizing: border-box;
+        background: white;
+        border: 1px solid #fff;
+        gap: 2rem;
+        transform: translate(70%, -50%);
+        
+    justify-content: space-evenly;
+        .fences{
+            display: flex;
+            margin: 2rem;
+            width: 80rem;
+        }
+        .imgs{
+            margin-left: 3rem;
+            
+            position: relative;
+            .a{
+                width: 20rem;
+            }
+            .b{
+
+                .c{
+                    position: absolute;
+                    top: 150px;
+                    left: -50px;
+                    padding: 2rem;
+                    
+                }
+            }
+            }
+    }
+}
+
+
+
+
+/* Last Section Styles */
+
+.last {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    /* Last Section Children Styles */
+    
+    .last > * {
+    height: 3rem;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    }
+    
+    /* Last Section First Child Styles */
+    
+    .last1 {
+    border: none ;
+    border-bottom: 1px ;
+    }
+    
+    /* Last Section Last Child Styles */
+    
+    .last2 {
+    border-right: none;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .section2 {
+    height: 80vh;
+    }
+    
+    .section2 .imgw {
+    height: 30vh;
+    }
+    
+    .section2 .box {
+    height: 80vh;
+    }
+    
+    .section2 .box .fence {
+    width: 30rem;
+    transform: translate(50%, -50%);
+    }
+    
+    .section2 .box .fence .fences {
+    width: 60rem;
+    }
+    
+    .section2 .box .fence .imgs .a {
+    width: 15rem;
+    }
+    
+    .section2 .box .fence .imgs .b .c {
+    top: 100px;
+    left: -30px;
+    padding: 1rem;
+    }
+    }
+    
+    @media only screen and (max-width: 768px) {
+    .section2 {
+    height: 100vh;
+    }
+    
+    .section2 .imgw {
+    height: 60vh;
+    }
+    
+    .section2 .box {
+    height: 100vh;
+    flex-direction: column;
+    }
+    
+    .section2 .box .fence {
+    width: 100%;
+    transform: translate(0, -50%);
+    }
+    
+    .section2 .box .fence .fences {
+        display: flex;
+        flex-direction: column;
+    width: 80%;
+    }
+    
+    .section2 .box .fence .imgs .a {
+    width: 90%;
+    }
+    
+    .section2 .box .fence .imgs .b .c {
+    top: 50px;
+    left: 0;
+    padding: 3rem 1rem 0 2rem;
+    }
+    }
+    @media only screen and (max-width: 768px) {
+        .section2 .imgw {
+        height: 50vh; /* Reduced height from 100vh to 50vh */
+        }
+        }
